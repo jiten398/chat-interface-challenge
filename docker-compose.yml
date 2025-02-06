@@ -4,7 +4,7 @@ services:
   app:
     build: .
     ports:
-      - "80:3000"  # Exposes port 80 from the container to port 3000 on your local machine
+      - "3000:80"  # Exposes port 80 from the container to port 3000 on your local machine
     environment:
       - NODE_ENV=production
       - VITE_API_KEY= #Define your api keys heres
