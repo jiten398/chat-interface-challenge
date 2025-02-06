@@ -48,7 +48,7 @@ To set up and run the project locally, follow the instructions below:
    Start the application in development mode using the following command:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
    The app should now be running at [http://localhost:3000](http://localhost:3000).
