@@ -22,7 +22,7 @@ FROM nginx:alpine
 # Copy the build output from the build stage to nginx public directory
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Expose port 80 for the web server
+# Expose port 3000 for the web server
 EXPOSE 3000
 
 # Start nginx in the background
